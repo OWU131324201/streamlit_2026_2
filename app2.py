@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import date
 
-st.title("🏠 シンプル家計簿")
+st.title("🏠 かんたん家計簿")
 
 # 1. データの保存場所を初期化
 if "expenses" not in st.session_state:
